@@ -1,0 +1,29 @@
+{
+    "name": "FS-avr",
+    "version": "0.0.1",
+    "description": "This library contains support for several file systems.",
+    "keywords": "avr, baskiton, fs, filesystem",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/baskiton/fs-avr.git"
+    },
+    "authors":
+    [
+        {
+            "name": "Alexander Baskikh",
+            "email": "baskiton@mail.ru",
+            "url": "https://t.me/baskiton",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "platforms": ["atmelavr"],
+    "dependencies": {
+        "spi-avr": "^1.6.0"
+    },
+    "examples": [
+        {
+        }
+    ]
+}
